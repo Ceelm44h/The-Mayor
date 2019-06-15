@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f4529bce8b1dd4b868823bc5c3002c, type: 3}
+  m_Name: Colt
+  m_EditorClassIdentifier: 
+  throwSpeed: 10
+  fireDelay: 0.05
+  damage: 0
+  weaponType: 1
+  weaponPrefab: {fileID: 1079801092194088, guid: 2f4db89b8869d7440803516ffb4368b5,
+    type: 2}
+  attackSound: {fileID: 8300000, guid: 29fd30821a91c494280917c5e1f40ac6, type: 3}
+  hitSound: {fileID: 8300000, guid: 0742ce7ffd12e4a4081a93dd5b94b489, type: 3}
+  bulletPrefab: {fileID: 114247215243918124, guid: 7b0230bb66e01f04ab8b49bd4e09cd21,
+    type: 2}
+  bulletSpeed: 40
+  gunSpeed: 7
+  ammoInMagazines: 14
+  maxAmmoInMagazine: 7
+  currentAmountOfAmmo: 7
+  reloadSound: {fileID: 8300000, guid: ebbf01a6a648a7046a91d30d2e8c4169, type: 3}
